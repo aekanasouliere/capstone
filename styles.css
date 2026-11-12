@@ -1,9 +1,17 @@
-body {
+body *{
     /* background-color: rgb blue; */ 
     /*type comment here */
     background-color: pink;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 25px;
+    margin: 0;
+    line-height: 2;
+    box-sizing: border-box;
+    padding: 0;
+    img {
+        width: 275px;
+        height: 325px;
+    }
 }
 
 li{
@@ -26,9 +34,39 @@ p {
 
 h2{
      font-family: "Momo Signature", cursive;
+     background-color: beige;
+     padding: 25px; 
+     /* 2 values: 1 - top&bottom, 2nd - right&left */
+    padding: 35px 55px;
+    padding: 30px 50px 30px;
+    padding: 40px 50px 40px 50px; 
+    margin-bottom: 120px;
+    border: 3px solid fuchsia
 }
 
 a:hover {
         text-decoration-thickness: 200%;
-        color: blueviolet
+        color: blueviolet;
         }
+
+.blog-title{
+    font-size: 30px;
+    color: blue;
+    text-align:left;
+}
+
+.blog-post h2 {
+    font-style: normal;
+    font-family:"Courier New", Courier, monospace;
+    font-size: 100px;
+    color: purple;
+}
+
+#thoughts {
+    background-color: rgb(125, 168, 108);
+}
+
+.half-size-image{
+    height:50%;
+    width:50%;
+}
