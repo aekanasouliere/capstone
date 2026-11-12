@@ -21,7 +21,7 @@ li{
 }
 
 p {
-    color: #247ba0; 
+    color: #262d30; 
     line-height: 150px;
     text-align: center;
     
@@ -69,4 +69,21 @@ a:hover {
 .half-size-image{
     height:50%;
     width:50%;
+}
+
+.box {
+    border:3px solid orange;
+    padding: 15%;
+    background-image: url(images/mytree.png);
+    background-position: center;
+    background-repeat: repeat;
+}
+
+.box p {
+    font-size: 75px;
+}
+
+
+div {
+    margin: 0 auto;
 }
